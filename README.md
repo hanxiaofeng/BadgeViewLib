@@ -1,4 +1,4 @@
-<h3>Android BadgeViewLib</h3>
+<h2>Android BadgeViewLib</h2>
 
 This library is an extension of badgeview.
 
@@ -6,17 +6,25 @@ This library is an extension of badgeview.
 
 A simple way to "badge" any given Android view at runtime without having to cater for it in layout.
 
-![image](BadgeViewLib/app/src/main/res/drawable/device-2016-07-14-210846.png)
+![image](https://github.com/hanxiaofeng/BadgeViewLib/app/src/main/res/drawable/device-2016-07-14-210846.png)
 
 Simple example:
 
+<font size = 3 color="#583294">
 tvTextOneBadge = new BadgeView(MainActivity.this);
+
 tvTextOneBadge.setmShowPoint(true);
+
 tvTextOneBadge.setTextSize(16f);
+
 tvTextOneBadge.setBadgeCount(5);
+
 tvTextOneBadge.setBadgeGravity(Gravity.LEFT | Gravity.BOTTOM);
+
 tvTextOneBadge.setBackgroundResource(R.mipmap.badge_orange);
+
 tvTextOneBadge.setTargetView(btnOne);
+</font>
 
 Author: hanxiaofeng
 
