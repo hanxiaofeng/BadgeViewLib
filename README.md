@@ -6,6 +6,15 @@ This library is an extension of badgeview.
 
 A simple way to "badge" any given Android view at runtime without having to cater for it in layout.
 
+<h2>How to use？</h2>
+
+<font size=3>Add the following code in build.gradle.</font>
+
+```javascript
+  compile 'com.lib.badge:badgeviewlib:1.0'
+```
+
+
 ![image](https://github.com/hanxiaofeng/BadgeViewLib/blob/master/app/src/main/res/drawable/device-2016-07-14-210846.png?raw=true)
 
 Simple example:
