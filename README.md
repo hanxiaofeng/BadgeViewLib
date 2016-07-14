@@ -13,12 +13,12 @@ A simple way to "badge" any given Android view at runtime without having to cate
 ```javascript
   compile 'com.lib.badge:badgeviewlib:1.0'
 ```
-<br />
+
 <h2>Effect</h2>
 
 ![image](https://github.com/hanxiaofeng/BadgeViewLib/blob/master/app/src/main/res/drawable/device-2016-07-14-210846.png?raw=true)
 <br />
-Simple example:
+<h2>Simple example</h2>
 
 <font size = 3 color="#583294">
 ```javascript
